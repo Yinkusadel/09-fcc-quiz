@@ -55,6 +55,6 @@ body {
   border: 0;
   }
 
-  p::before{
-    content :"Question #";
+  p::before {
+    content: "Question #";
   }
