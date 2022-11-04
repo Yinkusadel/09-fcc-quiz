@@ -9,7 +9,7 @@
   </head>
   <body>
     <header>
-      <img id="logo" src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg">
+      <img id="logo" src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" alt="quiz">
       <h1>HTML/CSS Quiz</h1>
       <nav>
         <ul>
@@ -23,6 +23,15 @@
       <form method="post" action="https://freecodecamp.org/practice-project/accessibility-quiz">
         <section role="region" aria-labelledby="student-info">
           <h2 id="student-info">Student Info</h2>
+          <div class="info">
+            <label for="student-name">Name:</label>
+            <input id="student-name" />
+          <div class="info">
+            <label for="student-email">Email:</label>
+            <input type="email" name="student-email" id="student-email" />
+          <div class="info">
+            <label for="birth-date">D.O.B.<span class="sr-only"></span></label>
+            <input id="birth-date" type="date" name="birth-date"/>
         </section>
         <section role="region" aria-labelledby="html-questions">
           <h2 id="html-questions">HTML</h2>
