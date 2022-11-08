@@ -4,9 +4,11 @@
   "rules": {
     "csstree/validator": {
       "properties": {
-        "width": "| new-keyword | custom-function(<length>, <percentage>)",
-        "font-size": "<length-percentage>"
+        "width": "<min()>|<max()>",
+        "size": "<min()>|<max()>",
+        "font-size": "<min()>|<max()>"
       }
-    },
+    }
+  },
   "ignoreFiles": ["build/**", "dist/**", "**/reset*.css", "**/bootstrap*.css"]
 }
