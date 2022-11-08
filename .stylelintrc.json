@@ -2,7 +2,11 @@
   "extends": ["stylelint-config-standard"],
   "plugins": ["stylelint-csstree-validator"],
   "rules": {
-    "csstree/validator": true
-  },
+    "csstree/validator": {
+      "properties": {
+        "width": "| new-keyword | custom-function(<length>, <percentage>)",
+        "font-size": "<length-percentage>"
+      }
+    },
   "ignoreFiles": ["build/**", "dist/**", "**/reset*.css", "**/bootstrap*.css"]
 }
