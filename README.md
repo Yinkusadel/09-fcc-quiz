@@ -1,6 +1,6 @@
-# Project Name
+# Quiz Webpage
 
-> One paragraph statement about the project.
+> A quiz webpage using accessibility tools such as keyboard shortcuts and ARIA attributes.
 
 ![screenshot](./app_screenshot.png)
 
@@ -8,13 +8,22 @@ Additional description of the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- html
+- header
+- div
+- h1,h2
+- fieldset
+- nav ,ul ,li
+- form , section ,label
+- legend
+- textarea
+- footer , address
+- CSS
+- media query
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://09-fcc-quiz.netlify.appm)
 
 ### Development (Running locally)
 
