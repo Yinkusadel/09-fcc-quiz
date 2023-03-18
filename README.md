@@ -8,18 +8,25 @@ Additional description of the project and its features.
 
 ## Built With
 
-- html
-- header
-- div
-- h1,h2
-- fieldset
-- nav ,ul ,li
-- form , section ,label
-- legend
-- textarea
-- footer , address
-- CSS
-- media query
+- ### HTML5 elements
+  - **Heading element**
+    `h1` `h2`
+  - **Block element**
+    `div` `p` `header`
+  - **Form element like**
+    `select` `label` `textarea` `form` `input` `legend`
+  - **Navigation section element**
+    `nav` `ul` `li`
+- ### CSS properties
+  - CSS media query for page responsiveness using `@media` rule,
+  - CSS overflow `hidden`
+  - CSS background for page aesthetic using `background-color`
+  - CSS selectors `class selector` `id selector` `universal selector` `child selector` `descendant selector`
+- ### Linters
+  - [prettier](prettier),
+  - [stylelint](stylelint).
+
+### GitHub Action
 
 ## Live Demo
 
