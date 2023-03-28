@@ -1,6 +1,6 @@
-# Project Name
+# Quiz Webpage
 
-> One paragraph statement about the project.
+> A quiz webpage using accessibility tools such as keyboard shortcuts and ARIA attributes.
 
 ![screenshot](./app_screenshot.png)
 
@@ -8,20 +8,36 @@ Additional description of the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- ### HTML5 elements
+  - **Heading element**
+    `h1` `h2`
+  - **Block element**
+    `div` `p` `header`
+  - **Form element like**
+    `select` `label` `textarea` `form` `input` `legend`
+  - **Navigation section element**
+    `nav` `ul` `li`
+- ### CSS properties
+  - CSS media query for page responsiveness using `@media` rule,
+  - CSS overflow `hidden`
+  - CSS background for page aesthetic using `background-color`
+  - CSS selectors `class selector` `id selector` `universal selector` `child selector` `descendant selector`
+- ### Linters
+  - [prettier](prettier),
+  - [stylelint](stylelint).
+
+### GitHub Action
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://09-fcc-quiz.netlify.appm)
 
 ### Development (Running locally)
 
 - Clone the project
 
 ```bash
-git clone https://github.com/user/html-css-template.git
+git clone https://github.com/Yinkusadel/09-fcc-quiz/pull/1
 
 ```
 
@@ -70,9 +86,10 @@ yarn hint
 
 ## 👤 Author
 
-- Github: [@author](https://github.com/author)
-- Twitter: [@author](https://twitter.com/author)
-- Linkedin: [@author](https://www.linkedin.com/in/author/)
+- Github: [@yinkusadel](https://github.com/yinkusadel)
+- Twitter: [@HashiraAdel](https://twitter.com/HashiraAdel)
+- Linkedin: [@adeleyeolayinka](https://www.linkedin.com/in/adeleye-olayinka/)
+- FreeCodeCamp: [@yinkusadel](https://www.freecodecamp.org/Yinkusadel)
 
 ## 🤝 Contributing
 
@@ -86,9 +103,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration, resources/assets used
-- etc
+- FreeCodeCamp: [@fcc-quiz](https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-accessibility-by-building-a-quiz/step-1)
 
 ## 📝 License
 
